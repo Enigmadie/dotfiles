@@ -1,0 +1,46 @@
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+URxvt.scrollBar: False
+URxvt*font: xft:Sans 12:size=10.5
+URxvt*boldFont: xft:Sans 12:size=10.5:style=bold
+URxvt.letterSpace: -4
+urxvt*transparent: true
+urxvt*shading: 20
+
+! special
+*.foreground:   #a3aaaf
+*.background:   #111215
+*.cursorColor:  #a3aaaf
+ 
+! black
+*.color0:       #887b49
+*.color8:       #887b49
+ 
+! red
+*.color1:       #5c7e5d
+*.color9:       #5c7e5d
+ 
+! green
+*.color2:       #817049
+*.color10:      #817049
+ 
+! yellow
+*.color3:       #5b829e
+*.color11:      #5b829e
+ 
+! blue
+*.color4:       #789999
+*.color12:      #789999
+ 
+! magenta
+*.color5:       #bed6e8
+*.color13:      #bed6e8
+ 
+! cyan
+*.color6:       #6287a1
+*.color14:      #6287a1
+ 
+! white
+*.color7:      #c4d2dc
+*.color15:      #c4d2dc 

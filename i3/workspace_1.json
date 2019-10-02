@@ -1,0 +1,80 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1070,
+       "width": 1070,
+       "x": 0,
+       "y": 0
+    },
+    "name": "hermes@hermes:~/.config/i3",
+    "percent": 0.6,
+    "swallows": [
+        {"class": "^URxvt$"},
+        {"instance": "^urxvt$"}
+//        {"title": "^hermes\\@hermes\\:\\~\\/\\.config\\/i3$"}
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.4,
+    "type": "con",
+    "nodes": [
+        {
+            // splith split container with 1 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.6,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 612,
+                       "width": 724,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "hermes@hermes:~",
+                    "percent": 1,
+                    "swallows": [
+                        {"class": "^URxvt$"},
+                        {"instance": "^urxvt$"}
+  //                      {"title": "^hermes\\@hermes\\:\\~$"}
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 312,
+               "width": 724,
+               "x": 0,
+               "y": 0
+            },
+            "name": "hermes@hermes:~",
+            "percent": 0.4,
+            "swallows": [
+                {"class": "^URxvt$"},
+                {"instance": "^urxvt$"}
+//                {"title": "^hermes\\@hermes\\:\\~$"}
+            ],
+            "type": "con"
+        }
+    ]
+}
+
