@@ -37,29 +37,13 @@ battery_print() {
     battery_percent=$(("$battery_percent / $battery_max"))
 
     if [ "$ac" -eq 1 ]; then
-       icon="BAT:"
-
-        if [ "$battery_percent" -gt 97 ]; then
-            echo "$icon"
-        else
-            echo "$icon $battery_percent %"
-        fi
+       icon="+"
+       echo "$icon $battery_percent %"
     else
-        if [ "$battery_percent" -gt 85 ]; then
-            icon="BAT:"
-        elif [ "$battery_percent" -gt 60 ]; then
-            icon="BAT:"
-        elif [ "$battery_percent" -gt 35 ]; then
-            icon="BAT:"
-        elif [ "$battery_percent" -gt 10 ]; then
-            icon="BAT:"
-        else
-            icon="BAT:"
-        fi
-
-        echo "$icon $battery_percent %"
+       icon="-"
+       echo "$icon $battery_percent %" 
     fi
-} 
+}
 path_pid="/tmp/polybar-battery-combined-udev.pid"
 
 case "$1" in

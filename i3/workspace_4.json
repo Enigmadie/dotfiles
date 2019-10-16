@@ -3,31 +3,32 @@
     // floating_con with 1 children
     "border": "pixel",
     "floating": "auto_off",
-    "layout": "splith",
+    "layout": "splitv",
     "percent": null,
     "rect": {
-       "height": 1006,
-       "width": 1400,
+       "height": 1034,
+       "width": 1900,
        "x": 10,
-       "y": 35
+       "y": 40
     },
     "type": "floating_con",
     "nodes": [
         {
             "border": "pixel",
-            "current_border_width": 4,
+            "current_border_width": 2,
             "floating": "user_on",
             "geometry": {
-               "height": 919,
+               "height": 819,
                "width": 1320,
                "x": 0,
                "y": 0
             },
-            "name": "i3 (Русский) - ArchWiki - Mozilla Firefox",
+            "name": "Mozilla Firefox",
             "percent": 1,
             "swallows": [
                 {"class": "^firefox$"},
                 {"instance": "^Navigator$"},
+                {"title": "^Mozilla\\ Firefox$"},
                 {"window_role": "^browser$"}
             ],
             "type": "con"

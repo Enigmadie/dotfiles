@@ -1,0 +1,106 @@
+// vim:ts=4:sw=4:et
+{
+    // floating_con with 1 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 698,
+       "width": 729,
+       "x": 1182,
+       "y": 46
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 4,
+            "floating": "user_on",
+            "geometry": {
+               "height": 436,
+               "width": 804,
+               "x": 0,
+               "y": 0
+            },
+            "name": "hermes@hermes:~",
+            "percent": 1,
+            "swallows": [
+                   {"class": "^URxvt$"},
+                   {"instance": "^urxvt$"}
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 324,
+       "width": 729,
+       "x": 1182,
+       "y": 752
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 4,
+            "floating": "user_on",
+            "geometry": {
+               "height": 436,
+               "width": 804,
+               "x": 0,
+               "y": 0
+            },
+            "name": "hermes@hermes:~",
+            "percent": 1,
+            "swallows": [
+                   {"class": "^URxvt$"},
+                   {"instance": "^urxvt$"}
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // floating_con with 1 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": null,
+    "rect": {
+       "height": 1072,
+       "width": 1165,
+       "x": 10,
+       "y": 5
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 4,
+            "floating": "user_on",
+            "geometry": {
+               "height": 436,
+               "width": 804,
+               "x": 0,
+               "y": 0
+            },
+            "name": "hermes@hermes:~",
+            "percent": 1,
+            "swallows": [
+                   {"class": "^URxvt$"},
+                   {"instance": "^urxvt$"}
+            ],
+            "type": "con"
+        }
+    ]
+}
+

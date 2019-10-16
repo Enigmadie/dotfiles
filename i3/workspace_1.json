@@ -45,12 +45,12 @@
                        "x": 0,
                        "y": 0
                     },
-                    "name": "hermes@hermes:~",
+                    "name": "this",
                     "percent": 1,
                     "swallows": [
                         {"class": "^URxvt$"},
-                        {"instance": "^urxvt$"}
-  //                      {"title": "^hermes\\@hermes\\:\\~$"}
+                        {"instance": "^urxvt$"},
+                        {"title": "^this$"}
                     ],
                     "type": "con"
                 }

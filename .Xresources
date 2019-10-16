@@ -2,45 +2,47 @@ URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
 URxvt.scrollBar: False
-URxvt*font: xft:Sans 12:size=10.5
-URxvt*boldFont: xft:Sans 12:size=10.5:style=bold
-URxvt.letterSpace: -4
-urxvt*transparent: true
-urxvt*shading: 20
+URxvt.font: xft:Hack-Regular:pixelsize=15,xft:Symbola
+URxvt.boldFont: xft:Hack-Bold:pixelsize=15:weight=bold,xft:Symbola
+URxvt.italicFont: xft:Hack-RegularOblique:pixelsize=15:slant=italic,xft:Symbola
+URxvt*transparent: true
+URxvt.letterSpace: -4.5
+URxvt*shading: 11
+URxvt*saveLines: 12000
 
 ! special
-*.foreground:   #a3aaaf
-*.background:   #111215
-*.cursorColor:  #a3aaaf
- 
+*.foreground:   #c5d7dd
+*.background:   #07090a
+*.cursorColor:  #c5d7dd
+
 ! black
-*.color0:       #887b49
-*.color8:       #887b49
- 
+*.color0:       #0f1112
+*.color8:       #ea92c6
+
 ! red
-*.color1:       #5c7e5d
-*.color9:       #5c7e5d
- 
+*.color1:       #171b1d
+*.color9:       #b09ff6
+
 ! green
-*.color2:       #817049
-*.color10:      #817049
- 
+*.color2:       #282d2e
+*.color10:      #4dbfd4
+
 ! yellow
-*.color3:       #5b829e
-*.color11:      #5b829e
- 
+*.color3:       #3d4548
+*.color11:      #f2cdbf
+
 ! blue
-*.color4:       #789999
-*.color12:      #789999
- 
+*.color4:       #5a6467
+*.color12:      #d3cdf7
+
 ! magenta
-*.color5:       #bed6e8
-*.color13:      #bed6e8
- 
+*.color5:       #7b898e
+*.color13:      #b1a5e9
+
 ! cyan
-*.color6:       #6287a1
-*.color14:      #6287a1
- 
+*.color6:       #a3b5ba
+*.color14:      #f8a4d5
+
 ! white
-*.color7:      #c4d2dc
-*.color15:      #c4d2dc 
+*.color7:       #d9e4e8
+*.color15:      #fba87f
