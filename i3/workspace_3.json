@@ -7,8 +7,8 @@
     "percent": null,
     "rect": {
        "height": 698,
-       "width": 729,
-       "x": 1182,
+       "width": 740,
+       "x": 1180,
        "y": 46
     },
     "type": "floating_con",
@@ -41,9 +41,9 @@
     "layout": "splith",
     "percent": null,
     "rect": {
-       "height": 324,
-       "width": 729,
-       "x": 1182,
+       "height": 329,
+       "width": 740,
+       "x": 1180,
        "y": 752
     },
     "type": "floating_con",
@@ -76,10 +76,10 @@
     "layout": "splitv",
     "percent": null,
     "rect": {
-       "height": 1072,
-       "width": 1165,
-       "x": 10,
-       "y": 5
+       "height": 1080,
+       "width": 1175,
+       "x": 1,
+       "y": 1
     },
     "type": "floating_con",
     "nodes": [

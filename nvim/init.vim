@@ -1,1 +1,1 @@
-/home/hermes/Downloads/dotfiles/files/vimrc
+/home/hermes/dot/files/vimrc
