@@ -7,8 +7,8 @@
     "percent": null,
     "rect": {
        "height": 698,
-       "width": 740,
-       "x": 1180,
+       "width": 733,
+       "x": 1188,
        "y": 46
     },
     "type": "floating_con",
@@ -42,8 +42,8 @@
     "percent": null,
     "rect": {
        "height": 329,
-       "width": 740,
-       "x": 1180,
+       "width": 733,
+       "x": 1188,
        "y": 752
     },
     "type": "floating_con",
@@ -77,7 +77,7 @@
     "percent": null,
     "rect": {
        "height": 1080,
-       "width": 1175,
+       "width": 1190,
        "x": 1,
        "y": 1
     },
